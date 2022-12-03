@@ -3,7 +3,7 @@ body{
     position: relative;
     max-width: 1680px; /*задаем максимальную ширину экрана*/
     height: 100vh; /*растягиваем изображение по высоте на весь экран*/
-    background-image: url(/img/background.jpg); /*добавляем фон на страницу*/
+    background-image: url(/about-me/img/background.jpg); /*добавляем фон на страницу*/
     background-repeat: no-repeat; /*для того, что бы картинка не дублировалась на странице*/
     background-size: cover; /*растягиваем изображение по всей странице*/
     background-position: center; /*позиционируем изображение фона по центру*/
