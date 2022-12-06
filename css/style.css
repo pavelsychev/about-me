@@ -267,12 +267,328 @@ body{
     height: 750px;
     border-radius: 7px;
 }
-
-
-
-
-
-
-
 /*photo style end*/
+
+/*адаптив start*/
+@media (max-width: 1960px) {
+    .container__third{
+        right: 145px;
+    }
+    .my__photo{
+        width: 430px;
+        height: 710px;
+    }
+    .text__photo{
+        right: 110px;
+        top: -40px;
+    }
+    .container__second{
+        left: -40px;
+    }
+    
+}
+@media (max-width: 1670px){
+    .container__second{
+        top: 730px;
+        padding: 0 0 0 137px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:"a b c";
+        
+    }
+    .paragraph-1{
+        grid-area: a;
+    }
+    .paragraph-2{
+        margin: -230px 36px 0 0;
+        grid-area: b;
+    }
+    .paragraph-3{
+        margin: -503px 0 0 -130px;
+        grid-area: c;
+        
+    }
+    .container__third{
+        right: 363px;
+        top: -26px;
+    }
+    .my__photo{
+        width: 465px;
+        height: 715px;
+    }
+    .text__photo{
+        right: 338px;
+        top: -60px;
+    }
+    .needs__text{
+        padding: 200px -3px 0 0;
+        height: 0;
+    }
+    body{
+        height: 150vh;
+    }
+   
+}
+@media (max-width: 1490px){
+    .container__second{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "a c"
+    "b b";
+    }
+    .paragraph-1{
+        grid-area: a;
+    }
+    .paragraph-2{
+        margin: -63px 0 0 0;
+        grid-area: b;
+    }
+    .paragraph-3{
+        margin: -503px 0 0 -179px;
+        grid-area: c;
+    }
+    body{
+        height: 120vh;
+    }
+    .needs__title{
+        padding: 190px 0 0 0;
+        height: 0;
+    }
+     .needs__text{
+        height: 0;
+    } 
+    body{
+        height: 150vh;
+    }
+}
+@media (max-width: 1400px){
+    .container__third{
+        right: 242px;
+    }
+    .text__photo{
+        margin-right: -112px;
+    }
+    .paragraph-3{
+        margin: -503px 0 0 -101px;
+    }
+    body{
+        height: 150vh;
+    }
+
+}
+@media (max-width: 1290px){
+    .container__third{
+        right: 162px;
+    }
+    .text__photo{
+        margin-right: -194px;
+    }
+    .paragraph-3{
+        margin: -503px 0 0 -75px;
+    }
+    body{
+        height: 135vh;
+    }
+
+}
+@media (max-width: 1200px){
+    .container__third{
+        right: 54px;
+    }
+    .text__photo{
+        margin-right: -307px;
+    }
+    .paragraph-3{
+        margin: -503px 0 0 -13px;
+    }
+    body{
+        height: 135vh;
+    }
+
+}
+@media (max-width: 1085px){
+   .container{
+    margin-left: 220px;
+   }
+   
+    .container__third{
+        right: 300px;
+        top: 704px;
+    }
+    .text__photo{
+        margin: 719px -55px 0 0;
+        padding-left: 200px;
+
+    }
+        .container__second{
+            margin: 200px 224px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: 
+            "a"
+            "b"
+            "c";
+        }
+            .paragraph-1{
+                padding: 514px 0 0 0;
+                grid-area: a;
+            }
+            .paragraph-2{
+                padding: 527px 0 0 0;
+                grid-area: b;
+            }
+            .paragraph-3{
+                padding: 871px 0 0 10px;
+                grid-area: c;
+            }
+            body{
+                height: 320vh;
+            }
+    
+}
+
+@media (max-width: 1050px){
+       
+    .container__third{
+        right: 256px;
+        top: 704px;
+    }
+    .text__photo{
+        margin: 719px -96px 0px 0px;
+        
+
+    }
+}
+@media (max-width: 990px){
+       
+    .container__third{
+        right: 204px;
+        top: 704px;
+    }
+    .text__photo{
+        margin: 719px -151px 0px 0px;
+        
+    }
+}
+@media (max-width: 900px){
+       
+    .container__third{
+        right: 112px;
+        top: 704px;
+    }
+    .text__photo{
+        margin: 719px -239px 0px 0px;
+    
+
+    }
+}
+
+@media (max-width: 800px){
+       
+    .container__third{
+        right: 12px;
+        top: 704px;
+    }
+    .text__photo{
+        margin: 719px -348px 0px 0px;
+    
+    }
+}
+@media (max-width: 710px){
+    .container{
+     margin-left: 110px;
+    }
+    
+     .container__third{
+         right: 40px;
+         top: 704px;
+     }
+     .text__photo{
+         margin: 719px -312px 0px 0px;
+         
+ 
+     }
+         .container__second{
+             margin-left: 110px;
+           
+         }
+        }         
+        @media (max-width: 690px){
+       
+            .container__third{
+                right: 8px;
+                top: 704px;
+            }
+            .text__photo{
+                margin: 719px -349px 0px 0px;
+            
+            }
+        }
+        @media (max-width: 600px){
+       
+            .container__third{
+                right: -86px;
+                top: 704px;
+            }
+            .text__photo{
+                margin: 719px -437px 0px 0px;
+            
+            }
+        }
+        @media (max-width: 560px){
+            .container{
+             margin-left: -37px;
+            }
+            
+             .container__third{
+                 right: 40px;
+                 top: 704px;
+             }
+             .text__photo{
+                 margin: 719px -312px 0px 0px;
+                 
+         
+             }
+                 .container__second{
+                     margin-left: -37px;
+                   
+                 }
+                }         
+
+        @media (max-width: 600px){
+       
+            .container__third{
+                  right: -12px;
+                  top: 704px;
+                    }
+            .text__photo{
+                margin: 719px -359px 0px 0px;
+                    
+                    }
+                }
+                @media (max-width: 450px){
+       
+                    .container__third{
+                        right: -67px;
+                    
+                    }
+                    .text__photo{
+                        margin-right: -414px;
+                    
+                    }
+                }
+                @media (max-width: 400px){
+       
+                    .container__third{
+                        right: -122px;
+                    
+                    }
+                    .text__photo{
+                        margin-right: -479px;
+                    
+                    }
+                }
+                /*адаптив end*/
+
 
