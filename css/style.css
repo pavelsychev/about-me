@@ -267,7 +267,7 @@ body{
 /*photo style end*/
 
 /*адаптив start*/
-@media (max-width: 1600px){
+@media screen and (max-width: 1600px){
     .сontainer{
         padding: 0 550px;
     }
@@ -276,7 +276,7 @@ body{
     }
     
 }
-@media (max-width: 1200px){
+@media screen and (max-width: 1200px){
     .container__second{
         margin-top: 965px;
         display: flex;
@@ -296,7 +296,7 @@ body{
 
 }
 
-@media (max-width: 900px){
+@media screen and (max-width: 900px){
  .container__second{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -308,7 +308,7 @@ body{
 
 }
 
-@media (max-width: 480px){
+@media screen and (max-width: 480px){
     
     .container{
         display: flex;
