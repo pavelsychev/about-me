@@ -502,7 +502,7 @@ body{
         margin: 0 10px;        
     }
       .container__one{
-        width: 460px;
+        max-width: 100%;
         padding: 0 15px 0 0;
         margin: 0 352px;
 }
