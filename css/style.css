@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+html,{
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body{
+    background: url(/img/background.jpg) center/110% 110% no-repeat fixed; /*добавляем фон на страницу, прописываем команду, что бы картинка не дублировалась, размещаем фон по центру и фиксируем егоб что бы при изменении размера экрана фон оставался*/   
+
+}
+
+
+  .container{
+    max-width: 1680px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 460px);
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.container__one{
+    width: 100%;
+    height: 635px;
+    margin-right: 53px;
+}
+.container__second{
+    margin: 97px 49px 118px 53px;
+    width: 100%;
+    height: 635px;
+}
+.container__third{
+    margin: 50px 0 50px 0;
+    width: 100%;
+    height: 750px;
+}
+/* header style start */
+.header{
+    width: 100%;
+    height: 150px;
+    margin-top: 90px;
+    margin-bottom: 65px; 
+}
+.name{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 75px;
+    color: #FFFFFF;
+    width: 401px;
+
+}
+/* header style end */
+ 
+
+/*info style start*/
+.info{
+    width: 460px;
+    height: 202px;  
+} 
+
+.logo__info{
+    display: grid;
+    grid-template-columns: repeat(2, 205px);
+    gap: 28px 50px;  
+}
+
+.logo__title{    
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin: 0;
+}
+
+.logo__text{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+ /*info style end*/
+
+
+/* tech style start */
+.tech{
+    margin-top: 45px;
+    width: 460px;
+    height: 173px;
+    margin-bottom: 125px;
+}
+    .tech__title__head{
+    width: 71px;
+    height: 25px;
+    }
+
+.tech__title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.9;
+    
+}
+.tech__positions{
+    margin-top: 15px;
+}
+.tech__positions__title{
+    margin: 17px 0px 1px 0px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.index__line{
+  box-sizing: content-box;
+  height: 9px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+.index__line > span{
+  display: block;
+  height: 100%;
+  width: 32.61%;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+/* tech style end */
+
+/* Biography style start */
+.biography{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 45px;
+}
+.biography__title__head{
+    width: 148px;
+    height: 25px;
+}
+.biography__title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.biography__text{
+    width: 75%;
+    height: 150px;
+
+
+}
+.biography__text__desc{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+/* Biography style end */
+/* needs style start */
+
+.needs__title__head{
+    width: 94px;
+    height: 25px;
+}
+.needs__title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+.needs__text{
+    width: 100%;
+    height: 120px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    padding-left: 15px;
+    
+}
+
+/* needs style end */
+/*points style start*/
+.points__title__head{
+    width: 170px;
+    height: 25px;
+}
+.points__title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.9;
+    
+}
+.points__text{
+    width: 90%;
+    height: 75px;
+    
+        
+}
+.points__text__desc{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.8;    
+}
+/* points style end*/
+
+/*photo style start*/
+.photo{
+    width: 100%;
+}
+.paragraph-7{
+    position: relative; /*задаем относительное позиционирование для текста на фото*/
+    width: 100%;
+}
+
+.text__photo{
+    position: absolute; /*для текста на фото, что бы при заполнении текст уезжал вверх*/
+    bottom: 5%; /*для текста на фото, что бы при заполнении текст уезжал вверх*/  
+    padding: 0 30px;
+    max-width: 440px;
+}
+.text__photo__desc{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;  
+}
+
+.my__photo{
+    margin-top: 50px;
+    width: 100%; 
+    height: 760px;
+    border-radius: 7px;
+}
+
+/*photo style end*/
+
+/*адаптив start*/
+
+@media screen and (max-width: 1400px){
+    .container{
+        padding-bottom: 0;
+        grid-template-rows: repeat(1, 0);
+        width: 100%;
+        padding: 0 0;
+    }
+    .container__one{
+        margin: 0 0 0 185px;
+        width: 100%;
+        padding-left: 30px;
+    }
+    .container__second{
+        margin-top: 900px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: -280px;
+        height: 100%;
+    }
+    .container__third{
+        margin: 25px 0 0 -215px;
+    }
+    .points__title__head{
+        margin-top: -2px;
+    }
+    .paragraph-4{
+        padding-left: 30px;
+    }
+    .paragraph-5{
+        margin-left: 243px;
+        width: 100%;
+    }
+    .paragraph-6{
+        margin-left: 287px;
+
+    }
+.points__text{
+    width: 100%;
+}
+.biography__text{
+    width: 200%;
+}
+
+}
+
+@media screen and (max-width: 1000px){
+    .container{
+        padding: 0 15px 0 0;
+
+    }
+    .container__second{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 155px);
+    width: 100%;
+ }
+ .container__one{
+    max-width: 100%;
+    padding-left: 130px;
+
+
+ }
+ .name{
+    font-size: 63px;
+ }
+ .logo__info {
+    display: grid;
+    grid-template-columns: repeat(2, 130px);
+    gap: 27px 0px;
+ }
+ .logo__title{
+    font-size: 12px;
+    line-height: 25px;
+ }
+ .logo__text{
+    font-size: 11px;
+    line-height: 24px;
+ }
+ .tech{
+    width: 100%;
+}
+.index__line{
+    width: 100%;
+}
+.tech__positions{
+    width: 70%;
+}
+.index__line__white{
+    width: calc(32.61% + (100 - 67.39) * ((100vw - 540px) / (1000 - 540)));
+}
+.biography{
+    width: 65%;
+    margin-left: 115px;
+}
+ .paragraph-6{
+    margin-left: 145px;
+    margin-top: 40px;
+ }
+ .points__text{
+    width: 150%;
+ }
+ .container__third{
+    margin: 25px 0 0 -273px;
+ }
+ .container__third{
+   max-width: 100%;
+
+
+ }
+}
+
+@media screen and (max-width: 811px){
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px 0 0;
+        width: 100%;
+        margin: 0 0;
+    
+        
+    }
+    .container__one{
+        width: 460px;
+        padding: 0 15px 0 0;
+        margin: 0 352px;
+    }
+    .header{
+        width: 30%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .name{
+        width: 100%;
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .logo__info{
+        grid-template-columns: repeat(2, 150px);
+        gap: 17px 43px;
+    }
+    .logo__text{
+        font-size: 14px;
+    }
+    .tech__positions{
+        width: 460px;
+    }
+    .tech{
+        padding-right: 15px;
+        width: 100%;
+    }
+    .index__line{
+        width: 100%;
+    }
+    
+    .index__line__white{
+        width: calc(32.61% + (100 - 67.39) * ((100vw - 320px) / (540 - 320)));
+    }
+    .container__second{
+        display: flex;
+        flex-direction: column;
+        order: 1;
+        margin: -150px 285px 0 0;
+        padding: 0 15px;   
+        width: 460px;
+        height: 600px;
+    }
+   
+    .biography{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .biography__text{
+        width: 100%;
+    }
+    .paragraph-5{
+    padding-left: 0;
+    margin: -185px 146px;
+    width: 100%;
+    }
+    .needs__text{
+        width: 100%;
+    }
+    .paragraph-6{
+        margin: -250px 145px;
+        width: 100%;
+    }
+    .points__text{
+        width: 100%;
+    }
+    
+    
+    .container__third{
+        width: 460px; 
+        margin: 150px 313px;
+        padding: 0 15px 0 0;
+
+    }
+    .paragraph-7{
+        padding-right: 15px;
+        width: 100%;
+       
+}
+
+.my__photo{
+    margin-top: -50px;
+    
+}
+.text__photo__desc{
+    width: 100%;
+    font-size: 25px;
+}
+}
+@media screen and (max-width: 516px){
+     .container{
+        padding: 0 15px;
+        width: 100%;
+        margin: 0 10px;        
+    }
+      .container__one{
+        width: 460px;
+        padding: 0 15px 0 0;
+        margin: 0 352px;
+}
+.logo__text{
+    font-size: 12px;
+}
+.tech__positions{
+    width: 100%;
+}
+.container__second{
+   max-width: 100%;
+}
+.container__third{
+    height: 100%;
+}
+.my__photo{
+    object-fit: contain;
+    height: 100%;
+}
+}
+   
+/*адаптив end */
