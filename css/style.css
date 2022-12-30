@@ -499,7 +499,7 @@ body{
 }
 @media screen and (max-width: 516px){
      .container{
-        max-width: 100%;
+        width: auto;
         margin: 0 10px;
     }
       .container__one{
@@ -530,7 +530,7 @@ body{
 }
 .container__third{
     height: 100%;
-    width: 100%;
+    max-width: 100%;
     padding: 0 15px;
 }
 .my__photo{
