@@ -507,6 +507,9 @@ body{
         padding: 0 15px;
         margin: 0 0;
 }
+ .logo__info{
+    grid-template-columns: repeat(2, 125px);
+}
 .logo__text{
     font-size: 12px;
 }
