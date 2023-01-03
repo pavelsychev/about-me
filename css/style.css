@@ -5,6 +5,10 @@ html,{
 *, *::before, *::after {
     box-sizing: inherit;
 }
+img{
+    height: auto;
+    max-width: 100%;
+}
 body{
     background: url(/about-me/img/background.jpg) center/110% 110% no-repeat fixed; /*добавляем фон на страницу, прописываем команду, что бы картинка не дублировалась, размещаем фон по центру и фиксируем егоб что бы при изменении размера экрана фон оставался*/   
 
